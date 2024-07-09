@@ -1,0 +1,28 @@
+button{
+    width: 5rem;
+    height: 1.5rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+form{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+form label{
+    display: block;
+}
+form input{
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+form textarea{
+    width: 100%;
+}
