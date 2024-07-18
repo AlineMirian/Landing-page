@@ -38,6 +38,26 @@ color: #3E251E;
     justify-content: space-between;
 }
 
+.descricao{
+    display: flex;
+    flex-direction: column;
+}
+
+#home{
+    display: flex;
+    flex-direction: row;
+}
+
+.icones img{
+    width: 150px;
+    height: 210px;
+}
+
+.icones{
+    margin-top: 20rem;
+    width: 70%;
+    display: flex;
+}
 
 button{
     width: 5rem;
