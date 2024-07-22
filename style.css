@@ -38,14 +38,54 @@ color: #3E251E;
     justify-content: space-between;
 }
 
+#vertical-line {
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    bottom: 0;
+    width: 1px;
+    height: 280%;
+    background-color: #3E251E;
+    transform: translateX(-50%);
+}
+
+.circle{
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    background-color: #3E251E;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+#circle2{
+    top: 165%;
+}
+
+#circle3{
+    top: 240%;
+}
+
+#circle4{
+    top: 315%;
+}
+
+#circle5{
+    top: 375%;
+}
+
 .descricao{
     display: flex;
     flex-direction: column;
 }
 
-#home{
-    display: flex;
-    flex-direction: row;
+#home, #Sobre, #Projetos, #Materiais{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 8rem;
 }
 
 .icones img{
@@ -53,10 +93,17 @@ color: #3E251E;
     height: 210px;
 }
 
-.icones{
-    margin-top: 20rem;
-    width: 70%;
-    display: flex;
+.direita{
+    margin-top: 15rem;
+    margin-left: 3rem;
+}
+
+.esquerda{
+    margin-right: 3rem;
+}
+
+#curriculo{
+    
 }
 
 button{
