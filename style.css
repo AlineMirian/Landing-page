@@ -16,7 +16,14 @@ nav li{
     display: inline-flex;
     justify-items: center;
     font-weight: bolder;
+    cursor: pointer;
 }
+
+nav li a:hover{
+    color: #ff7b00;
+    font-size: large;
+}
+
 li{
     &:not(:nth-child(1)){
         margin: 0 1rem;
@@ -82,7 +89,7 @@ color: #3E251E;
     flex-direction: column;
 }
 
-#home, #Sobre, #Projetos, #Materiais{
+#Softskills, #Hardskills, #Projetos, #Materiais{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 8rem;
@@ -103,7 +110,20 @@ color: #3E251E;
 }
 
 #curriculo{
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#curriculo h4{
+    margin-left: 28%;
+    margin-top: -24%;    
+}
+
+#curriculo a{
+    text-decoration: none;
+    color:#3E251E;
+    cursor: pointer;
 }
 
 button{
