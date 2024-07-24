@@ -149,13 +149,21 @@ color: #3E251E;
     
 }
 
+.iconesdireita i{
+
+}
+
 .textoesquerda{
-    margin: 15rem 9rem 0 5rem;
+    margin: 15rem 4rem 0px 11px;
     font-size: 23px;
 }
 
 .iconesesquerda{
     margin: 15rem 13rem 0 11rem;
+}
+
+#submateriais, #pmateriais{
+    margin-left: 14px;
 }
 
 #curriculo{
