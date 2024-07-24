@@ -9,6 +9,38 @@ header{
     text-align: left;
 }
 
+.descricao hr{
+    height: 2px;
+    background-color:#3E251E;
+    width: 38%;
+    margin: -21px 0 0 0;
+}
+
+.descricao #linha2{
+    height: 2px;
+    background-color:#3E251E;
+    width: 38%;
+    margin: -11px 0 0 0;
+}
+ 
+#nome{
+    text-align: left;
+    margin: 49px 0 -23px 0;
+}
+
+#saudacao{
+    text-align: right;
+    font-weight: lighter;
+}
+
+#subtitle{
+    width: 29%;
+}
+
+#transicao{
+    font-size: 23px;
+    margin-right: 183px;
+}
 nav li{
     list-style: none;
     text-decoration: none;
@@ -95,18 +127,33 @@ color: #3E251E;
     margin-bottom: 8rem;
 }
 
-.icones img{
-    width: 150px;
-    height: 210px;
+.iconesdireita img{
+    width: 225px;
+    height: 330px;
 }
 
-.direita{
+.iconesesquerda img{
+    width: 225px;
+    height: 330px;
+}
+
+.textodireita{
+    margin: 15rem 5rem 0 10rem;
+    font-size: 23px;
+}
+
+.iconesdireita{
     margin-top: 15rem;
-    margin-left: 3rem;
+    margin-left: 14rem;
 }
 
-.esquerda{
-    margin-right: 3rem;
+.textoesquerda{
+    margin: 15rem 9rem 0 5rem;
+    font-size: 23px;
+}
+
+.iconesesquerda{
+    margin: 15rem 13rem 0 11rem;
 }
 
 #curriculo{
@@ -116,8 +163,9 @@ color: #3E251E;
 }
 
 #curriculo h4{
-    margin-left: 28%;
-    margin-top: -24%;    
+    margin-left: 35%;
+    margin-top: -24%;  
+      
 }
 
 #curriculo a{
@@ -125,6 +173,16 @@ color: #3E251E;
     color:#3E251E;
     cursor: pointer;
 }
+
+#contatosontainer{
+    width: 50%;
+    margin-left: 16rem;
+}
+
+#conexaoform {
+    width: 40%;
+}
+
 
 button{
     width: 5rem;
@@ -153,4 +211,10 @@ form input{
 
 form textarea{
     width: 100%;
+}
+
+#footer-rights{
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }

@@ -25,7 +25,13 @@
             <div id="container-header">
                 <div class="descricao">
                     <h1>Iniciando a carreira Dev</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nisi quo error nam at cupiditate soluta illo. Illum, itaque accusantium ad consectetur dolor quas minus incidunt voluptatibus repellat, doloribus in!</p>
+                    <hr>
+                    <hr id="linha2">
+                  <div id="subtitle">
+                    <h2 id="nome">Aline Mirian,</h2>
+                    <h2 id="saudacao">muito prazer!</h2>
+                  </div>
+                    <p id="transicao">Em transição de carreira, estou em busca de me tornar uma profissional referência na área da programação e, por isso, venho aqui em busca de criar uma oportunidade que agrega valor para mim e para você!</p>
                 </div>
 
                 <img id="foto" src="./images/logo_aline-sem fundo.png" alt="">
@@ -39,24 +45,24 @@
     <div id="circle1" class="circle"></div>
 
     <section id="Softskills">
-        <div class="texto esquerda">
+        <div class="textoesquerda">
             <h2>Softskills</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum vel suscipit ducimus et quaerat temporibus, nisi quis debitis beatae distinctio error obcaecati! Doloremque, dolorum. Quae aliquam enim recusandae totam inventore.</p>
         </div>
-        <div class="icones direita">
-            <img src="./images/github.png" alt="ícone github">
-            <img src="./images/materiais.png" alt="ícone materiais">
+        <div class="iconesdireita">
+            <a href="https://github.com/AlineMirian" target="_blank"><img src="./images/github.png" alt="icone github"></a>
+            <a href="https://www.notion.so/Registro-de-Estudos-d11ce560730343f2bbdeea5819485aeb"target="_blank"><img src="./images/materiais.png" alt="ícone materiais"></a>
         </div>
     </section>
 
     <div id="circle2" class="circle"></div>
 
     <section id="Hardskills">
-        <div class="icones esquerda">
-            <img src="./images/github.png" alt="ícone github">
-            <img src="./images/materiais.png" alt="ícone materiais">
+        <div class="iconepercentualesquerda">
+            <img src="./images/percentual maior.png" alt="percentualmaior">
+            
         </div>   
-        <div class="texto direita">
+        <div class="textodireita">
             <h2>Hardskills</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor consequuntur explicabo corporis alias qui. Perspiciatis adipisci incidunt praesentium eaque sapiente suscipit beatae quia natus ab quae sunt consequuntur, numquam quis.</p>
         </div>     
@@ -65,21 +71,26 @@
     <div id="circle3" class="circle"></div>
 
     <section id="Projetos">
-        <div class="texto esquerda">
-            <h2>projetos</h2>
+        <div class="textoesquerda">
+            <h2>Projetos</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla expedita porro quaerat reprehenderit consequuntur. Eum dicta, atque perferendis rem nisi praesentium. Amet excepturi dignissimos quod? Natus facilis accusamus ipsum magni.</p>
         </div>
+        <div class="iconepercentualesquerda">
+            <img src="/images/percentual menor.png" alt="percentualmenor">
+            
+        </div>      
+ 
     </section>
 
     <div id="circle4" class="circle"></div>
 
     <section id="Materiais">
-        <div id="curriculo" class="icones esquerda">
+        <div id="curriculo" class="iconesesquerda">
             <a href="./Public/Currículo Aline Mirian.pdf.pdf" target="_blank"><img src="./images/curriculo.png" alt="ícone curriculo">
             <h4>Currículo</h4>
             </a>
         </div>          
-        <div class="texto direita">
+        <div class="textodireita">
             <h2>Materiais</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor consequuntur explicabo corporis alias qui. Perspiciatis adipisci incidunt praesentium eaque sapiente suscipit beatae quia natus ab quae sunt consequuntur, numquam quis.</p>
         </div>   
@@ -88,20 +99,19 @@
     <div id="circle5" class="circle"></div>
 
     <section id="Contatos">
-        <div>
-            <h2>contatos</h2> 
+        <div id="contatosontainer">
+            <h2>Contatos</h2> 
             <form action="" id="conectar">
-        <div>
-            <label for="nome">Nome</label>
-            <input type="text" name="nome" id="nome" required>
+        <div id="conexaoform">
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name" required>
 
             <label for="assunto">Assunto</label>
             <input type="text" name="assunto" id="assunto"required>
 
             <label for="mensagem">Mensagem</label>
             <textarea name="mensagem" id="mensagem" required></textarea>
-        </div>       
-                               
+        </div>                              
             
                       
                 <button type="submit">
@@ -111,22 +121,22 @@
             </button>  
         </form>         
         </div>
+
+        <div class="iconesdireita">
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+    
+            <a href="https://w.app/H4Vuot"><i class="fa-brands fa-whatsapp"></i></a>
+    
+            <a href="https://www.linkedin.com/in/aline-mirian/"><i class="fa-brands fa-linkedin"></i></a>     
+                
+        </div>
     </section>
+    <script src="./scripts.js"></script>
 </body>
 
 <footer>
-    <div class="footer">
-        <div id="footer-icons">
-            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-
-            <a href="https://w.app/H4Vuot"><i class="fa-brands fa-whatsapp"></i></a>
-
-            <a href="https://www.linkedin.com/in/aline-mirian/"><i class="fa-brands fa-linkedin"></i></a> 
-        </div>  
-        <div id="footer-rights">
-            <p>&copy; 2024 Aline Mirian. Todos os direitos reservados.</p>
-        </div>     
-    </div>
-    
+    <div id="footer-rights">
+        <p>&copy; 2024 Aline Mirian. Todos os direitos reservados.</p>
+    </div>     
 </footer>
 </html>
