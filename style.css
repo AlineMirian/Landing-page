@@ -138,13 +138,15 @@ color: #3E251E;
 }
 
 .textodireita{
-    margin: 15rem 5rem 0 10rem;
     font-size: 23px;
 }
 
 .iconesdireita{
+    display: flex;
+    justify-content: end;
     margin-top: 15rem;
-    margin-left: 14rem;
+    margin-right: 10%;
+    
 }
 
 .textoesquerda{
